@@ -8,10 +8,10 @@ Nginx request module
 Commands
 --------
 
-  **request_param** "VALUE";
-  # request_param   "Accept: application/json";
-  # request_param   "Content-Type: application/json";
-  # request_param   "Charsets: utf-8";
+  **request_param** "VALUE";<br />
+  # request_param   "Accept: application/json";<br />
+  # request_param   "Content-Type: application/json";<br />
+  # request_param   "Charsets: utf-8";<br />
 
   **request_agent** "User agent";
 
