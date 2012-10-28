@@ -1,0 +1,9 @@
+ngx_feature_deps="$ngx_addon_dir/ngx_request_module.h"
+ngx_oauth_src="$ngx_addon_dir/ngx_request_module.c"
+ngx_feature_libs="-lcurl"
+
+ngx_addon_name=ngx_request_module
+HTTP_MODULES="$HTTP_MODULES ngx_request_module"
+NGX_ADDON_DEPS="$NGX_ADDON_DEPS $ngx_feature_deps"
+NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_oauth_src"
+CORE_LIBS="$CORE_LIBS $ngx_feature_libs"
