@@ -8,18 +8,18 @@ Nginx request module
 Commands
 --------
 
-    **request_param** "VALUE";
-    # request_param   "Accept: application/json";
-    # request_param   "Content-Type: application/json";
-    # request_param   "Charsets: utf-8";
+  **request_param** "VALUE";
+  # request_param   "Accept: application/json";
+  # request_param   "Content-Type: application/json";
+  # request_param   "Charsets: utf-8";
 
-    **request_agent** "User agent";
+  **request_agent** "User agent";
 
-    **request_method** "GET POST PUT DELETE"; # As default
+  **request_method** "GET POST PUT DELETE"; # As default
 
-    **request** [GET POST PUT DELETE] URL [params or request body] $target_var;
+  **request** [GET POST PUT DELETE] URL [params or request body] $target_var;
 
-    **request_echo** [GET POST PUT DELETE] URL [params or body]; # Put result to response
+  **request_echo** [GET POST PUT DELETE] URL [params or body]; # Put result to response
 
 Example
 -------
